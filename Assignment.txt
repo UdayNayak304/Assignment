@@ -1,0 +1,242 @@
+1) Difference between SDLC (Software Deveploment Life Cycle) and STLC (Software Testing Life Cycle).
+ 
+A) -> Software Development Life Cycle (SDLC) is a sequence of different activities performed during the software development process.
+    1. SDLC is mainly related to software development.
+    2. Besides development other phases like testing is also included.
+    3. SDLC involves total six phases or steps.
+          1.Requirement Analysis
+          2.Software Design   
+          3.Software Build
+          4.Testing
+    	  5.Deployment
+          6.Maintenance
+     4.In SDLC, more number of members (developers) are required for the whole process.
+     5.In SDLC, development team makes the plans and designs based on the requirements.
+
+   -> Software Testing Life Cycle (STLC) is a sequence of different activities performed during the software testing process.
+     1. STLC is mainly related to software testing.
+     2. It focuses only on testing the software.
+     3. STLC involves only five phases or steps.
+           1. Test Planning
+           2. Test Case Development
+           3. Test Environment Steup
+           4. Test Exicution
+           5. Test Closure
+     4.In STLC, less number of members (testers) are needed.
+     5.In STLC, testing team(Test Lead or Test Architect) makes the plans and designs.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2) Verfication and Validation 
+
+A) -> Verfication:- 
+       
+     1. Verification is a process of checking documents, design, code, and program in order to check if the software has been built 
+        according to the requirements or not. 
+     2. The main goal of verification process is to ensure quality of software application, design, architecture etc. 
+     3. The verification process involves activities like reviews, walk-throughs and inspection.
+     4. Verification checks whether the software confirms a specification.
+     5. Verification finds the bugs early in the development cycle.
+     6. It comes before validation.
+   
+   -> Validation:-  
+     
+     1. Validation is a dynamic mechanism of testing and validating if the software product actually meets the exact needs of the customer or not.
+     2. The process helps to ensure that the software fulfills the desired use in an appropriate environment.
+     3. The validation process involves activities like unit testing, integration testing, system testing and user acceptance testing.
+     4. Validation checks whether the software meets the requirements and expectations.
+     5. Validation finds the bugs that verification can not catch.
+     6. It comes after Verfication
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3) Authorization and Authentication
+ 
+A) -> Authorization:-
+    
+     1. Authorization is the process of granting someone to do something. 
+     2. It means it a way to check if the user has permission to use a resource or not.
+     3. It defines that what data and information one user can access.
+     4. The authorization usually works with authentication so that the system could know who is accessing the information.
+     5. It requires the user's privilege or security level.
+     6. It is usually done once the user is successfully authenticated.
+
+   -> Authentication
+     
+     1. Authentication is the process of identifying someone's identity by assuring that the person is the same as what he is claiming for.
+     2. It is used by both server and client. The server uses authentication 
+        when someone wants to access the information and the server needs to know who is accessing the information 
+        the client uses it when he wants to know that it is the same server that it claims to be.
+     3. The authentication by the server is done mostly by using the username and password 
+        Other ways of authentication by the server can also be done using cards, retina scans, voice recognition, and fingerprints.
+     4. Authentication does not ensure what tasks under a process one person can do
+        what files he can view read or update. It mostly identifies who the person or system is actually.
+     5. Data is provided through the Token Ids.
+     6. Authentication credentials can be partially changed by the user as per the requirement.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4) Test Management Review 
+
+A) -> A management review is an important aspect of a management system that 
+      demonstrates commitment from the organization for implementing, reviewing, 
+      and continually improving the management system and associated processes and documents. 
+    The management review acts as:
+     1. A formal review of the system status and progress towards the objectives.
+     2. A method to change the system as the company’s needs change.
+     3. Gives clear concept of understanding of testing activity of prior upcoming project and also post ones
+   Test Management has five process
+     1. Test plan
+     2. Test Design
+     3. Test excution
+     4. Exit Criteria
+     5. Test Reporting
+  Tools Commenly used in Test management 
+     1. qTest
+     2. Zephyr
+     3. Test Collab
+     4. XQual
+     5. TestRail
+     6. TestPad.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5) Client Side and Server Side Validation.
+ 
+A) -> Validation
+     
+    1. Validation is a process of testing and ensuring that the user has entered required and properly formatted information through the web form.
+    2. Validation rules not only ensure that incoming data is valid, but they also provide an additional layer of security.
+    3.You can configure validation to occur either client side (if the data is being entered by a user) or server side (if the data is coming from an external system).
+
+  -> Client Side Validation
+     
+    1. Client-side validation occurs as a user is entering data into a browser.
+    2. If a user enters data that is invalid or outside acceptable ranges, an error is raised that can be acted upon before the data enters the system. 
+    3. In client-side validation, all the input validations and the error recovery process are carried out on the user’s browser. The browser performs the validation. 
+    4. Client-side validation is triggered based on the event attached to validationtype.
+   
+  -> Server Side Validation
+    
+    1. Server-side validation occurs when data has entered the system from any external source and cannot be validated beforehand.
+    2. In this case when invalid data is detected by a validation rule an error is raised that marks the data as invalid.
+    3. This can be detected and acted upon by other rule types to correct or notify someone about the error. 
+    4. In server-side validation, all the input validations and error recovery process are carried out on the server side.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6) Request Respons flow from front end to back end. 
+
+A) -> 1. The backend and frontend both work together to serve a single goal. 
+         It’s pretty helpful to keep it in mind at all times. They are made, so a user can access them
+      2. The frontend and backend make this possible by causing requests to be sent and answering with responses.
+          1. Server
+          2. Backend 
+          3. Frontend
+          4. Browser
+
+            Browser-------->Frontend
+              | |
+              | |
+      Request | | Response
+              | |
+              V V
+            Server---------->Backend
+
+      1. The user points their browser to one of website’s urls 
+         This makes the browser send out one or more requests to server
+         The browser waits to receive responses from server
+         Every response is used to render a part of the site
+
+      2. The user waits for the browser to render the page.
+      3. The user sees a useful and usable page
+      4. The user interacts with the page
+         Causing more requests to be sent out to get more data and display new information and so on.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7) Life Cycle Phases of project 
+
+A) -> There are 5 Phases of life cycle of project 
+         1.Initiation
+         2.Planning  
+         3.Execution
+         4.Monitoring and Controlling
+         5.Clouser 
+
+     1. Initiation 
+          This is the starting point of the project. The project gets conceptualized in this phase.
+                     In this stage, the following steps are implemented
+ 
+         1.The project idea is either created or the client approaches the idea.
+           The idea can be the solution to an existing problem or a new opportunity in business (e.g., new smartphone model launch).  
+         2.A business case document is created providing the solution to implement the idea after the
+           brainstorming sessions consisting of the team, client, and project managers.
+         3.Project managers and concerned teams check the feasibility of implementing the project in terms of profits, cost, timeline, resources, etc.
+         4.Once the project has passed this feasibility test, it is proposed for approval from the leadership team of the company/business unit.
+         5.During approval, SOW for the project is signed, and the budget is allocated.
+
+   After the successful completion of the above steps, the project is moved to the planning phase.
+
+      2.Planning Phase.
+            This is the second phase of project management. During this phase, a detailed project plan is created.
+            This plan includes tasks, resources required, timelines, cost, etc. In addition, further planning for prioritizing requirements is done.
+       
+          Different plans that are created depending on the type of project are:
+                     1. Communication Plan
+                     2. Resource Plan
+                     3. Quality Plan
+                     4. Deployment Plan
+
+       3. Execution Phase. 
+            Done with the project idea finalization and planning. Now it’s time to set to work. 
+            In this phase, previous planning is put into action. This phase depends highly on planning. Better the plan better will be the execution.
+         
+          below steps are used in this process:
+                 1. Resource allocation and ensuring its timely delivery.
+                 2. Assigning the tasks to team members on a daily basis.
+                 3. Taking daily meetings.
+                 4. Creating a status report based on daily meetings and the progress of the project.
+           Here the entire team comes to the picture as it starts with actual work
+
+       4. Monitoring and controlling
+               This phase is merged with the execution phase because both occur at the same time. 
+               The main objective here is to ensure that execution is carried out as per the plan. Timelines and costs adhere.
+         Below points are implemented during monitoring:
+                 1. Set the key performance indicators (KPI’s).
+                 2. Compare the progress plan or status report with the project plan to measure KPI’s.
+                 3. For any deviation from the project, reduce the deviation and redefine KPI’s.
+                 4. Update the plan for any changes to meet the deadline.
+                 5. Monitor budget utilization.
+                 6. Monitor the quality of the project.
+
+        5. Clouser Phase
+               Now that project is completed, and it is time to deploy the project to the client or launch in the market.
+               This is where the collaborated efforts come to a fruitful end. A deployment plan created in the planning phase comes into action.
+                 The closure phase has:
+                   1. Releasing the deliverables(product/service) to the stakeholders.
+                   2. Communicating the closure to stakeholders and business partners.
+                   3. Signing off business documents.
+                   4. Releasing the team members and closing the contracts.
+                   5. Payment and documentation filing.
+                   6. Documenting lessons learned and best practices adopted during the project so that it can be used for future reference for other projects.
+                   7. Setting up support and maintenance structure as per the requirement.
+
+      -> So above are the Project Life cycle Phases. Where these phases aren't mutually exclusive they may overlap in practice.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                   
+8) Success
+  
+   -> Success every one wants it but only few work for it and full fill its demands. Where success demands.
+              1. Hard Work 
+              2. Consistany
+              3. Patience
+              4. Persistance.                 
+      In the Path of Life success has only camma's not Full stop's.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+9) Strengths and Weakness
+      
+    -> I always work with discipline where i belive discipline takes to places where motivation can't
+    -> I can't say no to any one when ask's me for help.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+10) -> After Completion of my Graduation i went to delhi where i dont know any one i dont have any relative and i strugled a lot for living and i dont know how do i 
+       survived in delhi where new place and new people and the language. I over came all the situation with my strong will and active mind. It was very tough to
+       survive in northern part of india i was all alone. But it gave a belife that i can survive and over come any kind of situation in my life. Being alone made
+       me strong think about my future and work on it. This is the challenging situation that i faced in my life.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------     
